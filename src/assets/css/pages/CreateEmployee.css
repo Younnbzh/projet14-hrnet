@@ -1,0 +1,174 @@
+.create-employee {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-employee h2 {
+  color: #FFF;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  color: #FFF;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-employees-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.view-employees-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.employee-form {
+  width: 100%;
+  max-width: 500px;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.form-group select {
+  width: 83%;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.address-fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.address-fieldset legend {
+  padding: 0 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.save-button {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.save-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.25);
+}
+
+.confirmation-modal .modal-content-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.confirmation-modal h3 {
+  color: #28a745;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.confirmation-modal p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.modal-ok-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.modal-ok-button:hover {
+  background-color: #0056b3;
+}
+
+.modal-ok-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+@media (max-width: 768px) {
+  .create-employee {
+    padding: 10px;
+  }
+
+  .employee-form {
+    padding: 20px;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+}
