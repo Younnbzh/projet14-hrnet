@@ -28,7 +28,7 @@
 
 .search-container label {
   font-weight: 500;
-  color: #333;
+  color: #FFF;
 }
 
 .search-input {
@@ -111,7 +111,7 @@
 
 .home-link {
   display: inline-block;
-  color: #007bff;
+  color: #FFF;
   text-decoration: none;
   padding: 10px 20px;
   border: 1px solid #007bff;
@@ -121,8 +121,8 @@
 }
 
 .home-link:hover {
-  background-color: #007bff;
-  color: white;
+  background-color: #FFF;
+  color: black;
 }
 
 .table-controls {
